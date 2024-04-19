@@ -391,6 +391,10 @@ letter-spacing: 1px;
 }
 
 @media (min-width:768px) {
+ .item-8 .image::before {
+    width: 430px;
+    height: 430px;
+} 
 .contaner{
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(8,auto);
