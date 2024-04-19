@@ -321,7 +321,7 @@ letter-spacing: 1px;
 .item-0 a{
   text-decoration: underline;
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
   .contaner{
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -390,7 +390,7 @@ letter-spacing: 1px;
 }
 }
 
-@media (min-width:769px) {
+@media (min-width:768px) {
 .contaner{
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(8,auto);
@@ -404,7 +404,7 @@ letter-spacing: 1px;
     "item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11";
 }
 }
-@media (min-width:859px) {
+@media (min-width:1023px) {
 .contaner{
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(3,auto);
