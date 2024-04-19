@@ -1,0 +1,421 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: sans-serif;
+}
+.contaner{
+  display: grid;
+}
+i{
+  color: #ffc518;
+}
+.item-0 {
+    grid-area: item-0;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+}
+.item-1 {
+    grid-area: item-1;
+}
+.item-1 .text {
+    padding: 21px 0;
+}
+.item-2{
+  grid-area: item-2;
+}
+.item-2.flex {
+    justify-content: end;
+}
+.item-3{
+  grid-area: item-3;
+  background-color: #ed4033;
+  text-align: center;
+}
+.item-4{
+  grid-area: item-4;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.item-5{
+  grid-area: item-5;
+}
+.item-5.flex {
+    justify-content: end;
+}
+.item-6{
+  grid-area: item-6;
+}
+.item-6 .text {
+    width: 100%;
+}
+.item-7{
+  grid-area: item-7;
+  background-color: #00bcd4;
+}
+.item-8{
+  grid-area: item-8;
+  background-color: #aa8ddd;
+  text-align: center;
+  padding-top: 30px;
+}
+.item-9{
+  grid-area: item-9;
+  background-color: #6f9489;
+  text-align: center;
+  position: relative;
+}
+.item-10{
+  grid-area: item-10;
+  background-color: #f7f7f7;
+  padding: 18px 0;
+  margin-bottom: 10px;
+}
+.item-11{
+  grid-area: item-11;
+  background-color: #151515;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    overflow: hidden;
+}
+.text{
+    width: 80%;
+    margin: 0 auto;
+}
+.contaner img{
+  width: 70%;
+}
+.contaner .item-0 p {
+    text-transform: uppercase;
+    color: #444;
+    font-weight: 700;
+}
+.contaner .item-0 h1{
+  padding: 12px 0;
+}
+h2{
+  text-transform: capitalize;
+}
+a{
+  text-transform: capitalize;
+  color: #37c3b6;
+}
+.contaner a{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 16px ;
+  text-decoration: none;
+}
+.contaner .item-1 h5 {
+  text-transform: uppercase;
+  color: #444;
+}
+.contaner .item-1 h2 {
+  padding: 16px 0;
+}
+.contaner .item-1 p {
+  padding: 12px 0;
+  color: #888;
+}
+.contaner .item-3 {
+  padding: 15px 0 28px 0;
+}
+.contaner .item-3 img{
+  width: 70%;
+}
+.contaner .item-4 img{
+  width: 60%;
+}
+.contaner .item-4 {
+  padding: 15px 0;
+}
+
+.contaner .item-3 h2 {
+  color: #fff;
+  padding: 16px 0;
+}
+.contaner .item-3 a {
+  color: #ffce3c;
+}
+.contaner .item-4 h2,.contaner .item-5 h2 ,.contaner .item-6 p{
+  padding: 16px 0;
+}
+.contaner .item-5 img {
+    width: 100%;
+    position: relative;
+    left: -64%;
+    bottom: -5px;
+}
+.contaner .item-5 p {
+  padding-top: 18px;
+  color: #888;
+  text-transform: uppercase;
+}
+.contaner .item-6 p {
+    color: #999;
+    line-height: 1.6;
+    width: 90%;
+}
+.contaner .item-7 .text {
+    position: relative;
+    text-align: center;
+    margin: 50px 0;
+    color: #fff;
+}
+.contaner .item-7 .text::before{
+  position: absolute;
+  content: "";
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,5%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% ,-50%);
+}
+.contaner .item-7 img {
+  width: 35px;
+}
+
+.item-9 .text {
+margin: 24px 0;
+}
+.item-9 h2{
+  color: #fff;
+}
+.item-9 p{
+  color: #fff;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px;
+  border-radius: 8px;
+  background: #ed4033;
+}
+.item-9 .image {
+  position: relative;
+  bottom: ;
+}
+.item-9 .image img {
+    z-index: 2;
+    position: relative;
+    bottom: -14px;
+    width: 100%;
+    left: 40%;
+    transform: translateX(-50%);
+}
+.item-9 .image::before {
+    position: absolute;
+    content: "uk";
+    left: 56%;
+    top: 48%;
+    transform: translate(-50% ,-50%);
+    font-size: 20rem;
+    color: #00000024;
+    z-index: 1;
+    letter-spacing: -15px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 900;
+}
+  .item-8 .image {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+.item-8 .image::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    background: rgba(0,0,0,8%);
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.item-8 .image p {
+    font-weight: 600;
+    padding:5px 11px;
+  border-radius: 18px;
+    font-size: 14px;
+  background-color: rgba(255,255,255,0.1);
+    letter-spacing: 1px;
+  width: fit-content;
+  margin: 0 auto 8px auto;
+}
+.item-8 .image h5{
+letter-spacing: 1px;
+}
+.item-8 .text h2{
+  font-size: 30px;
+  color: #fff;
+  text-transform: none;
+}
+.item-8 .text p{
+  margin: 17px 0;
+  color: #eee;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.item-8 .text button {
+    border: none;
+  cursor: pointer;
+    background: #ffc518;
+    border-radius: 18px;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+  transition: 0.5s;
+}
+.item-8 .text button:hover{
+  background: orange;
+}
+.item-8 .text {
+    margin: 30px 0px;
+}
+.item-10 p {
+    color: #fff;
+    background: #4caf50;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+.item-11 .text {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #eee;
+}
+.item-11 .contaner img {
+  width: 55%;
+}
+.item-10 .text {
+    text-align: center;
+}
+.item-10 p {
+    width: fit-content;
+    margin: 0 auto 8px auto;
+}
+.item-0 a{
+  text-decoration: underline;
+}
+@media (max-width:768px) {
+  .contaner{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "item-0"
+    "item-1"
+    "item-2"
+    "item-3"
+    "item-4"
+    "item-5"
+    "item-6"
+    "item-7"
+    "item-8"
+    "item-9"
+    "item-10"
+    "item-11";
+  }
+  .item-6,.item-3{
+    padding: 12px
+  }
+  .item-9 .text {
+    margin: 46px 0;
+  }
+  .item-9 .image {
+    bottom: 11px;
+  }
+  .item-9 .image img,.contaner .item-3 img{
+    width: 85%;
+  }
+  .item-9 .image::before {
+      left: 62%;
+      top: 55%;
+      font-size: 178px;
+  }
+  .item-11 .text {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+}
+  .item-11 img {
+    width: 100%;
+}
+  button{
+    cursor: none;
+  }
+  .contaner .item-8 .text {
+    margin: 58px 0px;
+}
+.item-8 .image {
+    margin-top: 30px;
+}
+      .item-11 .text {
+        width: 100%;
+        text-align: center; 
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+      }
+
+    .item-11 img {
+        max-width:50% ; 
+      margin-right: 60px; 
+    }
+  .item-8 .image::before {
+    width: 400px;
+    height: 400px;
+}
+}
+
+@media (min-width:769px) {
+.contaner{
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(8,auto);
+  grid-template-areas: "item-0 item-0 item-0 item-0 item-0 item-0 item-0 item-0 item-0 item-0 item-0 item-0"
+    "item-1 item-1 item-1 item-1 item-1 item-1 item-2 item-2 item-2 item-2 item-2 item-2"
+    "item-3 item-3 item-3 item-3 item-3 item-3 item-4 item-4 item-4 item-4 item-4 item-4"
+    "item-5 item-5 item-5 item-5 item-5 item-5 item-6 item-6 item-6 item-6 item-6 item-6"
+    "item-7 item-7 item-7 item-7 item-7 item-7 item-8 item-8 item-8 item-8 item-8 item-8"
+    "item-9 item-9 item-9 item-9 item-9 item-9 item-8 item-8 item-8 item-8 item-8 item-8"
+    "item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10"
+    "item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11";
+}
+}
+@media (min-width:859px) {
+.contaner{
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(3,auto);
+  grid-template-areas:
+    "item-1 item-1 item-1 item-2 item-2 item-2 item-0 item-0 item-0 item-0 item-0 item-0"
+    "item-3 item-3 item-3 item-5 item-5 item-5 item-6 item-6 item-6 item-8 item-8 item-8"
+    "item-4 item-4 item-4 item-9 item-9 item-9 item-9 item-9 item-9 item-8 item-8 item-8"
+    "item-7 item-7 item-7 item-10 item-10 item-10 item-11 item-11 item-11 item-11 item-11 item-11";
+}
+.item-6 .text {
+    width: 100%;
+    padding: 14px 0;
+}
+}
