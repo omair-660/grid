@@ -308,7 +308,7 @@ letter-spacing: 1px;
     justify-content: space-between;
     color: #eee;
 }
-.item-11 .contaner img {
+.item-11  img {
   width: 55%;
 }
 .item-10 .text {
@@ -391,10 +391,6 @@ letter-spacing: 1px;
 }
 
 @media (min-width:768px) {
- .item-8 .image::before {
-    width: 430px;
-    height: 430px;
-} 
 .contaner{
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(8,auto);
@@ -407,8 +403,18 @@ letter-spacing: 1px;
     "item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10"
     "item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11 item-11";
 }
+    .item-9 .image img {
+    bottom: -45px;
+  }
+    .item-9 .image::before {
+    top: 78%;
+  }
+  .item-8 .image::before{
+    width: 450px;
+    height: 450px;
+  }
 }
-@media (min-width:1023px) {
+@media (min-width:1024px) {
 .contaner{
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(3,auto);
@@ -422,4 +428,5 @@ letter-spacing: 1px;
     width: 100%;
     padding: 14px 0;
 }
+
 }
